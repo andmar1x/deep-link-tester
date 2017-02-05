@@ -1,0 +1,23 @@
+buildscript {
+    apply from: 'versions.gradle'
+    repositories {
+        jcenter()
+        mavenCentral()
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:${androidPluginVer}"
+        classpath "me.tatarka:gradle-retrolambda:${retrolambdaVer}"
+        classpath "com.neenbedankt.gradle.plugins:android-apt:${androidAptVer}"
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        maven { url "https://www.jitpack.io" }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

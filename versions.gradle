@@ -1,0 +1,23 @@
+ext {
+    // Android gradle plugin.
+    androidPluginVer = "2.3.0-beta3"
+    // Android Build Tools.
+    buildToolsVer = "25.0.0"
+    // Android SDK.
+    minSdkVer = 16
+    targetSdkVer = 25
+    compileSdkVer = 25
+    // Dependencies.
+    retrolambdaVer = "3.5.0"
+    androidAptVer = "1.8"
+    dbflowVer = "4.0.0-beta5"
+    supportLibraryVer = "25.1.0"
+    daggerVer = "2.7"
+    javaxAnnotationVer = "1.0"
+    butterknifeVer = "8.4.0"
+    rxJavaVer = "2.0.5"
+    rxAndroidVer = "2.0.1"
+    // Tests.
+    espressoVer = "2.2.2"
+    junitVer = "4.12"
+}

@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "/home/sarasti/Projects/deep-link-tester/app/build/intermediates/res/merged/debug/color/abc_btn_colored_borderless_text_material.xml",
+        "source": "/home/sarasti/.android/build-cache/2e4d7b9f4c837ed307f49e907f53dfa174956f9c/output/res/color/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/home/sarasti/Projects/deep-link-tester/app/build/intermediates/res/merged/debug/color/design_error.xml",
+        "source": "/home/sarasti/.android/build-cache/1dd0d7a1f8d2645b4afcf2cdf7ef7706e8d9c0e9/output/res/color/design_error.xml"
+    },
+    {
+        "merged": "/home/sarasti/Projects/deep-link-tester/app/build/intermediates/res/merged/debug/color/abc_tint_edittext.xml",
+        "source": "/home/sarasti/.android/build-cache/2e4d7b9f4c837ed307f49e907f53dfa174956f9c/output/res/color/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/home/sarasti/Projects/deep-link-tester/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
+        "source": "/home/sarasti/.android/build-cache/2e4d7b9f4c837ed307f49e907f53dfa174956f9c/output/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/home/sarasti/Projects/deep-link-tester/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
+        "source": "/home/sarasti/.android/build-cache/2e4d7b9f4c837ed307f49e907f53dfa174956f9c/output/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/home/sarasti/Projects/deep-link-tester/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
+        "source": "/home/sarasti/.android/build-cache/2e4d7b9f4c837ed307f49e907f53dfa174956f9c/output/res/color/abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "/home/sarasti/Projects/deep-link-tester/app/build/intermediates/res/merged/debug/color/abc_tint_switch_track.xml",
+        "source": "/home/sarasti/.android/build-cache/2e4d7b9f4c837ed307f49e907f53dfa174956f9c/output/res/color/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/home/sarasti/Projects/deep-link-tester/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/home/sarasti/.android/build-cache/2e4d7b9f4c837ed307f49e907f53dfa174956f9c/output/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/home/sarasti/Projects/deep-link-tester/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/home/sarasti/.android/build-cache/2e4d7b9f4c837ed307f49e907f53dfa174956f9c/output/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/home/sarasti/Projects/deep-link-tester/app/build/intermediates/res/merged/debug/color/abc_tint_btn_checkable.xml",
+        "source": "/home/sarasti/.android/build-cache/2e4d7b9f4c837ed307f49e907f53dfa174956f9c/output/res/color/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/home/sarasti/Projects/deep-link-tester/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_light.xml",
+        "source": "/home/sarasti/.android/build-cache/2e4d7b9f4c837ed307f49e907f53dfa174956f9c/output/res/color/abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "/home/sarasti/Projects/deep-link-tester/app/build/intermediates/res/merged/debug/color/abc_tint_default.xml",
+        "source": "/home/sarasti/.android/build-cache/2e4d7b9f4c837ed307f49e907f53dfa174956f9c/output/res/color/abc_tint_default.xml"
+    },
+    {
+        "merged": "/home/sarasti/Projects/deep-link-tester/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
+        "source": "/home/sarasti/.android/build-cache/2e4d7b9f4c837ed307f49e907f53dfa174956f9c/output/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/home/sarasti/Projects/deep-link-tester/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/home/sarasti/.android/build-cache/2e4d7b9f4c837ed307f49e907f53dfa174956f9c/output/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/home/sarasti/Projects/deep-link-tester/app/build/intermediates/res/merged/debug/color/design_tint_password_toggle.xml",
+        "source": "/home/sarasti/.android/build-cache/1dd0d7a1f8d2645b4afcf2cdf7ef7706e8d9c0e9/output/res/color/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/home/sarasti/Projects/deep-link-tester/app/build/intermediates/res/merged/debug/color/abc_tint_spinner.xml",
+        "source": "/home/sarasti/.android/build-cache/2e4d7b9f4c837ed307f49e907f53dfa174956f9c/output/res/color/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/home/sarasti/Projects/deep-link-tester/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/home/sarasti/.android/build-cache/2e4d7b9f4c837ed307f49e907f53dfa174956f9c/output/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/home/sarasti/Projects/deep-link-tester/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/home/sarasti/.android/build-cache/2e4d7b9f4c837ed307f49e907f53dfa174956f9c/output/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/home/sarasti/Projects/deep-link-tester/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
+        "source": "/home/sarasti/.android/build-cache/2e4d7b9f4c837ed307f49e907f53dfa174956f9c/output/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/home/sarasti/Projects/deep-link-tester/app/build/intermediates/res/merged/debug/color/abc_btn_colored_text_material.xml",
+        "source": "/home/sarasti/.android/build-cache/2e4d7b9f4c837ed307f49e907f53dfa174956f9c/output/res/color/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/home/sarasti/Projects/deep-link-tester/app/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
+        "source": "/home/sarasti/.android/build-cache/2e4d7b9f4c837ed307f49e907f53dfa174956f9c/output/res/color/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/home/sarasti/Projects/deep-link-tester/app/build/intermediates/res/merged/debug/color/abc_tint_seek_thumb.xml",
+        "source": "/home/sarasti/.android/build-cache/2e4d7b9f4c837ed307f49e907f53dfa174956f9c/output/res/color/abc_tint_seek_thumb.xml"
+    }
+]
