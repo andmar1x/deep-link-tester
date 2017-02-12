@@ -1,23 +1,15 @@
 package org.andmar1x.deeplinktester.presentation.ui.history;
 
-import android.support.annotation.NonNull;
-
+import io.reactivex.Observable;
+import io.reactivex.android.schedulers.AndroidSchedulers;
+import io.reactivex.disposables.Disposable;
+import io.reactivex.schedulers.Schedulers;
+import java.util.List;
+import javax.inject.Inject;
 import org.andmar1x.deeplinktester.common.presenter.BasePresenter;
 import org.andmar1x.deeplinktester.data.model.DeepLink;
 import org.andmar1x.deeplinktester.data.model.DeepLinkViewModel;
 import org.andmar1x.deeplinktester.domain.usecase.LoadDeepLinksUseCase;
-
-import java.util.List;
-
-import javax.inject.Inject;
-
-import io.reactivex.Observable;
-import io.reactivex.ObservableSource;
-import io.reactivex.android.schedulers.AndroidSchedulers;
-import io.reactivex.disposables.Disposable;
-import io.reactivex.functions.Consumer;
-import io.reactivex.functions.Function;
-import io.reactivex.schedulers.Schedulers;
 
 public class HistoryPresenter
         extends BasePresenter<HistoryView> {
@@ -29,12 +21,6 @@ public class HistoryPresenter
 
     @Inject
     public HistoryPresenter() {
-    }
-
-    @Override
-    public void attachView(@NonNull HistoryView view) {
-        super.attachView(view);
-        loadHistory();
     }
 
     public void openLinkEditor(String link) {

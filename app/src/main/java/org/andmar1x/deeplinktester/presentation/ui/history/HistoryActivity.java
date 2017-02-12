@@ -8,7 +8,12 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.FrameLayout;
-
+import butterknife.BindView;
+import butterknife.ButterKnife;
+import butterknife.OnClick;
+import butterknife.Unbinder;
+import java.util.List;
+import javax.inject.Inject;
 import org.andmar1x.deeplinktester.R;
 import org.andmar1x.deeplinktester.common.activity.MvpActivity;
 import org.andmar1x.deeplinktester.common.component.HasActivitySubcomponentBuilders;
@@ -16,15 +21,6 @@ import org.andmar1x.deeplinktester.common.widget.RecyclerViewClickListener;
 import org.andmar1x.deeplinktester.common.widget.RecyclerViewTouchListener;
 import org.andmar1x.deeplinktester.data.model.DeepLinkViewModel;
 import org.andmar1x.deeplinktester.presentation.ui.details.DetailsActivity;
-
-import java.util.List;
-
-import javax.inject.Inject;
-
-import butterknife.BindView;
-import butterknife.ButterKnife;
-import butterknife.OnClick;
-import butterknife.Unbinder;
 
 public class HistoryActivity
         extends MvpActivity<HistoryView, HistoryPresenter>
@@ -46,7 +42,7 @@ public class HistoryActivity
 
     @Override
     protected void inject(@NonNull HasActivitySubcomponentBuilders hasActivitySubcomponentBuilders) {
-        ((HistoryComponent.Builder) hasActivitySubcomponentBuilders.getActivityComponentBuilder(
+        ((HistoryComponent.Builder)hasActivitySubcomponentBuilders.getActivityComponentBuilder(
                 HistoryActivity.class)).activityModule(new HistoryComponent.Module(this))
                 .build()
                 .injectMembers(this);
@@ -71,6 +67,12 @@ public class HistoryActivity
     protected void onDestroy() {
         super.onDestroy();
         unbinder.unbind();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        presenter.loadHistory();
     }
 
     @Override
